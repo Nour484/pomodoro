@@ -4,10 +4,10 @@ import 'package:shared_preferences/shared_preferences.dart';
 class ModeProvider with ChangeNotifier {
   bool _lightModeEnable = true;
 
-  //  getter
+  // getter
   bool get lightModeEnable => _lightModeEnable;
 
-  //  setter
+  // setter
   set lightModeEnable(bool value) {
     _lightModeEnable = value;
   }
